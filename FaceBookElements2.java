@@ -1,6 +1,6 @@
 package com.raj.suryatraining;
 
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriver.package;//This is changed in branch a
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -39,6 +39,8 @@ public class FaceBookElements2 {
 	public WebElement getInputEmail() {
 		return inputEmail;
 	}
+    
+    
 	
 
 }
